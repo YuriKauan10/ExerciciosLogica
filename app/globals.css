@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.pai{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  outline: 1px solid white;
+  outline-offset: 16px;
+}
+
+.nav{
+  display: flex;
+  gap: 20px;
+}
+
+.nav p:hover {
+  color: grey;
+  transition: 0.3s;
+}
+
+.alfabeto{
+  width: 300px;
+  margin: 50px;
+  font-size: 50px;
+  height: 100px;
+  background-color: #fdf5f5;
+  border-radius: 14px;
+  color: black;
+}
+
+.alfabeto:hover{
+  background-color: #0a0a0a;
+  border: 0.5px solid white;
+  color: white;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
