@@ -39,10 +39,13 @@
   color: white;
 }
 
+.inputNum:focus{
+  outline: none;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: white;
 }
 
 @media (prefers-color-scheme: dark) {
