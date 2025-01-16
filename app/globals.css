@@ -43,6 +43,26 @@
   outline: none;
 }
 
+.ex{
+  display: flex;
+}
+
+.fatorial{
+  width: 300px;
+  margin: 50px;
+  font-size: 50px;
+  height: 100px;
+  background-color: #fdf5f5;
+  border-radius: 14px;
+  color: black;
+}
+
+.fatorial:hover{
+  background-color: #0a0a0a;
+  border: 0.5px solid white;
+  color: white;
+}
+
 :root {
   --background: #0a0a0a;
   --foreground: white;
